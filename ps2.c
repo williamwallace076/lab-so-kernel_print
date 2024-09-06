@@ -104,7 +104,7 @@ PRIVATE char *taskname(int p_nr)
     return ps_proc[n].p_name;
 }
 
-void imprimeProcessos()
+void imprimeProcessos(void)
 {
     int i;
     struct pstat buf;
